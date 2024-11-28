@@ -1,0 +1,80 @@
+{
+    "type": "bubble",
+    "hero": {
+        "type": "image",
+        "url": "https://developers-resource.landpress.line.me/fx/img/01_1_cafe.png",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover",
+        "action": {
+            "type": "uri",
+            "uri": "https://line.me/"
+        }
+    },
+    "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+            {
+                "type": "text",
+                "text": "Brown Cafe",
+                "weight": "bold",
+                "size": "xl"
+            },
+            {
+                "type": "box",
+                "layout": "baseline",
+                "margin": "md",
+                "contents": [
+                    {
+                        "type": "icon",
+                        "size": "sm",
+                        "url": "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png"
+                    },
+                    {
+                        "type": "icon",
+                        "size": "sm",
+                        "url": "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png"
+                    },
+                    {
+                        "type": "icon",
+                        "size": "sm",
+                        "url": "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png"
+                    },
+                    {
+                        "type": "icon",
+                        "size": "sm",
+                        "url": "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png"
+                    },
+                    {
+                        "type": "icon",
+                        "size": "sm",
+                        "url": "https://developers-resource.landpress.line.me/fx/img/review_gray_star_28.png"
+                    },
+                    {
+                        "type": "text",
+                        "text": "4.0",
+                        "size": "sm",
+                        "color": "#999999",
+                        "margin": "md",
+                        "flex": 0
+                    }
+                ]
+            }
+        ]
+    },
+    "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+            {
+                "type": "button",
+                "action": {
+                    "type": "message",
+                    "label": "สั่งซื้อลาเต้",
+                    "text": "สั่งซื้อ#ลาเต้"
+                }
+            }
+        ]
+    }
+}
